@@ -1,6 +1,13 @@
 # Nand to Tetris Golang Implementation
 Visit the Nand2Tetris website: http://nand2tetris.org/
 
+## Overview
+
+The Nand to Tetris course explores key computer science concepts including operating systems, compilers, virtual machines, assemblers, and logic gates. This implementation is built in Go.
+
+![overview](./images/overview.png)
+*<span align="center">The course overview picture from Nand to Tetris</span>*
+
 ## 1. Assembler Part
 
 The Assembler translates assembly language code (`*.asm`) into machine code (`*.hack`).
