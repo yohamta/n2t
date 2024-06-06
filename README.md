@@ -34,7 +34,7 @@ The Compiler compiles the programs (`*.jack`) into VM code (`*.vm`).
 
 The `*.jack` files are programs written in the "Jack language", which is a simple programming language that is developed by the nand to tetris creators.
 
-How to compile example jack file:
+How to compile an example jack file:
 
 ```sh
 cd ./compiler
