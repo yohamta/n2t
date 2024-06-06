@@ -3,10 +3,12 @@ Nand2Tetris website: http://nand2tetris.org/
 
 ## 1. Assembler part
 
+Assembler translate assembly code (`*.asm`) into the machine code (`*.hack`).
+
 You can read the article in the following URLs:
 
 - EN: [Medium](https://medium.com/@yohata/understanding-computer-architecture-through-nand-to-tetris-implementing-an-assembler-in-go-df515e19a974)
-- JA: [Zenn](https://zenn.dev/articles/1a8e9e1bc81d68)
+- JA: [Zenn](https://zenn.dev/tacoms/articles/1a8e9e1bc81d68)
 
 How to run assembler on examples:
 
