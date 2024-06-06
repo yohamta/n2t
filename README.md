@@ -1,14 +1,16 @@
 # Nand to Tetris Golang Implementation
-Nand2Tetris website: http://nand2tetris.org/
+Visit the Nand2Tetris website: http://nand2tetris.org/
 
-## 1. Assembler part
+## 1. Assembler Part
 
-The Assembler translates assembly code (`*.asm`) into the machine code (`*.hack`).
+The Assembler translates assembly language code (`*.asm`) into machine code (`*.hack`).
 
-You can read the article in the following URLs:
+For further reading, check out these articles:
 
-- EN: [Medium](https://medium.com/@yohata/understanding-computer-architecture-through-nand-to-tetris-implementing-an-assembler-in-go-df515e19a974)
-- JA: [Zenn](https://zenn.dev/tacoms/articles/1a8e9e1bc81d68)
+- English: [Medium Article](https://medium.com/@yohata/understanding-computer-architecture-through-nand-to-tetris-implementing-an-assembler-in-go-df515e19a974)
+- Japanese: [Zenn Article](https://zenn.dev/tacoms/articles/1a8e9e1bc81d68)
+
+### How to Run the Assembler Example:
 
 How to run assembler on the example:
 
@@ -19,9 +21,9 @@ go run . ../examples/Pong/Pong.asm
 
 ## 2. VM Translator part
 
-The VM Translater translates virtual machine code (`*.vm`) into assembly code (`*.asm`).
+The VM Translator converts Virtual Machine code (`*.vm`) into assembly code (`*.asm`).
 
-How to run VM Translator on the example:
+### How to Run the VM Translator Example:
 
 ```sh
 cd ./vm
@@ -30,13 +32,13 @@ go run . ../examples/Pong
 
 ## 3. Compiler part
 
-The Compiler compiles the programs (`*.jack`) into VM code (`*.vm`).
+The Compiler converts code written in the Jack language (`*.jack`) into VM code (`*.vm`). The Jack language is a straightforward programming language developed by the creators of Nand to Tetris.
 
-The `*.jack` files are programs written in the "Jack language", which is a simple programming language that is developed by the nand to tetris creators.
-
-How to compile an example jack file:
+### How to Compile an Example Jack File:
 
 ```sh
 cd ./compiler
 go run . ../examples/Pong
 ```
+
+Note: The current version of the compiler does not implement operator precedence as this feature is not covered in the Nand to Tetris course. I may add this feature later when I have more time.
